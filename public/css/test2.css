@@ -1,0 +1,4 @@
+html, body{text-align: center;}
+.banners{width:1200px; margin:50px auto; overflow: hidden;}
+.banners ul{width:3600px; position: relative; top:0; left:0;}
+.banners li{float: left;}

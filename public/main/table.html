@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Table 예제</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/table.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <table border="1" > <!--cellspacing 두 선 사이의 간격을 벌린다 cellspacing="0" cellpadding="10" 옛날에 사용하던거라서 이런게 있구나 정도로 알면 됨.-->
+    <colgroup>
+      <col width="5%">
+      <col>
+      <col width="10%">
+      <col width="20%">
+    </colgroup>
+    <thead> <!--자동으로 bold체로 들어감-->
+      <tr>  <!--table row의 약자-->
+        <th>번호</th>
+        <th>제목</th>
+        <th>작성자</th>
+        <th>작성일</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>  <!--table data의 약자 cssdp table-cell과 같다-->
+        <td>테스트 입니다.</td>  
+        <td>홍길동</td>  
+        <td>2018-10-04 15:14:05</td>  
+      </tr>
+      <tr>
+        <td>2</td>  <!--table data의 약자 cssdp table-cell과 같다-->
+        <td>테스트 입니다.</td>  
+        <td>홍길동</td>  
+        <td>2018-10-04 15:14:05</td>  
+      </tr>
+      <tr>
+        <td>3</td>  <!--table data의 약자 cssdp table-cell과 같다-->
+        <td>테스트 입니다.</td>  
+        <td>홍길동</td>  
+        <td>2018-10-04 15:14:05</td>  
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">total: 3data</td> <!--칸을 합치는것 colum-->
+      </tr>
+    </tfoot>
+  </table>
+
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>01</th>
+        <th>02</th>
+        <th>03</th>
+        <th>04</th>
+        <th>05</th>
+        <th>06</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A</td>
+        <td colspan="3">B</td>
+        <td>C</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+        <td>H</td>
+        <td>I</td>
+        <td rowspan="2">J</td>
+      </tr>
+      <tr>
+        <td>K</td>
+        <td colspan="2">L</td>
+        <td>M</td>
+        <td>N</td>
+      </tr>
+      <tr>
+        <td>O</td>
+        <td>P</td>
+        <td colspan="2" rowspan="2">Q</td>
+        <td>R</td>
+        <td>S</td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2">T</td>
+        <td>U</td>
+        <td>V</td>
+      </tr>
+      <tr>
+        <td>W</td>
+        <td>X</td>
+        <td>Y</td>
+        <td>Z</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <table border="1"> <!--이런식으로 생략 가능하게 사용 할수 있다.-->
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>D</td>
+    </tr>
+  </table>
+
+
+
+ <table border="1" class="w3-table w3-table-all w3-hoverable w3-centered"> <!--w3-centered를 th에도 적용 시킬려면 <table>아래 <tr>이 있고 <th>가 있는 상태-->
+   <tr>
+     <th>A</th>
+     <th>B</th>
+     <th>C</th>
+     <th>D</th>
+     <th>E</th>
+     <th>F</th>
+     <th>G</th>
+     <th>H</th>
+     <th>I</th>
+   </tr>
+   <tr>
+     <td colspan="3" rowspan="3">1</td>
+     <td>2</td>
+     <td>3</td>
+     <td>4</td>
+     <td>5</td>
+     <td colspan="2" rowspan="3">6</td>
+   </tr>
+   <tr>
+     <td colspan="4">7</td>
+   </tr>
+   <tr>
+     <td>8</td>
+     <td>9</td>
+     <td>10</td>
+     <td>11</td>
+   </tr>
+   <tr>
+     <td>12</td>
+     <td rowspan="4">13</td>
+     <td>14</td>
+     <td colspan="2" rowspan="2">15</td>
+     <td>16</td>
+     <td>17</td>
+     <td rowspan="2">18</td>
+     <td>19</td>
+   </tr>
+   <tr>
+     <td>20</td>
+     <td>21</td>
+     <td>22</td>
+     <td>23</td>
+     <td>24</td>
+   </tr>
+   <tr>
+     <td>25</td>
+     <td>26</td>
+     <td colspan="2">27</td>
+     <td colspan="4">28</td>
+   </tr>
+   <tr>
+     <td>29</td>
+     <td>30</td>
+     <td>31</td>
+     <td colspan="3">32</td>
+     <td>33</td>
+     <td>34</td>
+   </tr>
+ </table>
+
+
+
+
+
+
+  <script src="../js/table.js"></script>
+</body>
+</html>

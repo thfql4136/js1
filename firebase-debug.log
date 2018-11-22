@@ -1,0 +1,116 @@
+[debug] [2018-10-26T08:32:50.855Z] ----------------------------------------------------------------------
+[debug] [2018-10-26T08:32:50.871Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-26T08:32:50.871Z] CLI Version:   5.1.1
+[debug] [2018-10-26T08:32:50.871Z] Platform:      win32
+[debug] [2018-10-26T08:32:50.871Z] Node Version:  v8.12.0
+[debug] [2018-10-26T08:32:50.871Z] Time:          Fri Oct 26 2018 17:32:50 GMT+0900 (대한민국 표준시)
+[debug] [2018-10-26T08:32:50.871Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-26T08:32:50.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-26T08:32:50.917Z] > authorizing via signed-in user
+[debug] [2018-10-26T08:32:50.917Z] [iam] checking project thfql4136-js1 for permissions ["firebase.projects.get"]
+[debug] [2018-10-26T08:32:50.917Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-26T08:32:50.917Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-26T08:32:51.401Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-26T08:32:51.417Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/thfql4136-js1:testIamPermissions  
+
+[debug] [2018-10-26T08:32:52.675Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-26T08:32:52.680Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/thfql4136-js1  
+ 
+[debug] [2018-10-26T08:32:53.805Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\js1'...
+[info] 
+[debug] [2018-10-26T08:32:53.820Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/363077689014/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-26T08:32:54.485Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-10-29T00:42:02.947Z] ----------------------------------------------------------------------
+[debug] [2018-10-29T00:42:02.962Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-29T00:42:02.962Z] CLI Version:   5.1.1
+[debug] [2018-10-29T00:42:02.962Z] Platform:      win32
+[debug] [2018-10-29T00:42:02.962Z] Node Version:  v8.12.0
+[debug] [2018-10-29T00:42:02.962Z] Time:          Mon Oct 29 2018 09:42:02 GMT+0900 (대한민국 표준시)
+[debug] [2018-10-29T00:42:02.962Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-29T00:42:03.012Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-29T00:42:03.028Z] > authorizing via signed-in user
+[debug] [2018-10-29T00:42:03.028Z] [iam] checking project thfql4136-js1 for permissions ["firebase.projects.get"]
+[debug] [2018-10-29T00:42:03.028Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-29T00:42:03.028Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-29T00:42:03.449Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-29T00:42:03.464Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/thfql4136-js1:testIamPermissions  
+
+[debug] [2018-10-29T00:42:04.663Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-29T00:42:04.663Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/thfql4136-js1  
+ 
+[debug] [2018-10-29T00:42:05.039Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\js1'...
+[info] 
+[debug] [2018-10-29T00:42:05.055Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/363077689014/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-29T00:42:06.027Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-10-30T00:23:11.765Z] ----------------------------------------------------------------------
+[debug] [2018-10-30T00:23:11.765Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-30T00:23:11.765Z] CLI Version:   5.1.1
+[debug] [2018-10-30T00:23:11.765Z] Platform:      win32
+[debug] [2018-10-30T00:23:11.765Z] Node Version:  v8.12.0
+[debug] [2018-10-30T00:23:11.765Z] Time:          Tue Oct 30 2018 09:23:11 GMT+0900 (대한민국 표준시)
+[debug] [2018-10-30T00:23:11.765Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-30T00:23:11.812Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-30T00:23:11.812Z] > authorizing via signed-in user
+[debug] [2018-10-30T00:23:11.812Z] [iam] checking project thfql4136-js1 for permissions ["firebase.projects.get"]
+[debug] [2018-10-30T00:23:11.828Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-30T00:23:11.828Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-30T00:23:12.283Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-30T00:23:12.283Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/thfql4136-js1:testIamPermissions  
+
+[debug] [2018-10-30T00:23:13.526Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-30T00:23:13.526Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/thfql4136-js1  
+ 
+[debug] [2018-10-30T00:23:14.688Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\js1'...
+[info] 
+[debug] [2018-10-30T00:23:14.688Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/363077689014/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-30T00:23:15.782Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-22T01:03:04.252Z] ----------------------------------------------------------------------
+[debug] [2018-11-22T01:03:04.264Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-11-22T01:03:04.265Z] CLI Version:   5.1.1
+[debug] [2018-11-22T01:03:04.266Z] Platform:      win32
+[debug] [2018-11-22T01:03:04.266Z] Node Version:  v8.12.0
+[debug] [2018-11-22T01:03:04.268Z] Time:          Thu Nov 22 2018 10:03:04 GMT+0900 (대한민국 표준시)
+[debug] [2018-11-22T01:03:04.268Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-22T01:03:04.331Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-22T01:03:04.332Z] > authorizing via signed-in user
+[debug] [2018-11-22T01:03:04.333Z] [iam] checking project thfql4136-js1 for permissions ["firebase.projects.get"]
+[debug] [2018-11-22T01:03:04.338Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-22T01:03:04.339Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-22T01:03:04.733Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-22T01:03:04.742Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/thfql4136-js1:testIamPermissions  
+
+[debug] [2018-11-22T01:03:05.971Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-22T01:03:05.975Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/thfql4136-js1  
+ 
+[debug] [2018-11-22T01:03:07.149Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\js1'...
+[info] 
+[debug] [2018-11-22T01:03:07.158Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/363077689014/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-22T01:03:07.877Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
